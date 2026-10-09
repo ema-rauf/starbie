@@ -14,12 +14,30 @@
 
 ## Contents
 
-1. [2026-10-09 – Work session](#2026-10-09-work-session)
+1. [2026-10-09 – Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons](#2026-10-09-today-i-started-the-half-life-week-1-project-desi)
 
 ## Design
 
-### 2026-10-09 – Work session
+### 2026-10-09 – Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons
 
 **2.03h**
+
+Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons. I’m a complete beginner at electronics, so I followed the Week 1 Guide step by step.
+
+Setup
+
+Installed KiCad on my Linux machine.
+Downloaded the Week 1 Care Package and extracted it into my project folder at Downloads/starbie. It contains a symbol library (Seeed_Studio_XIAO_Series.kicad_sym), a footprint folder (Imported Parts.pretty, with the OLED display, MPU6050 and XIAO footprints) and 3D models.
+Created a KiCad project and added both libraries as project-specific libraries, so the parts show up in the schematic editor.
+
+Schematic so far
+
+Placed the XIAO-ESP32-C3-SMD as my microcontroller.
+Added power symbols (+5V, +3.3V, GND) and wired them to the chip: VBUS to +5V and 3V3_OUT to +3.3V.
+Found that the XIAO has three GND pins (13, 18 and 22), not one, and wired all three to ground. I also moved a GND symbol that had landed on top of the chip body.
+Started the net labels for the signal pins: D1 for the DHT11 data, D2 and D3 for the buttons, D4 and D5 for the I2C lines (SDA and SCL).
+
+Problem I found
+The guide’s schematic picture puts SCL on D4 and SDA on D5, but its firmware table says the opposite (D4 is SDA, D5 is SCL). I also noticed that the guide on GitHub had been updated while I was working, so I’m going to check the current pin table before I finalize those two labels. Either order works electrically, as long as the schematic and the firmware pin numbers match.
 
 [Timelapse](https://lookout.hackclub.com/api/media/46b743ef-5ec6-41f8-aaad-dfad73d32cfe/video.mp4)
