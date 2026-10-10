@@ -14,14 +14,16 @@
 
 ## Contents
 
-1. [2026-10-09 – Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons](#2026-10-09-today-i-started-the-half-life-week-1-project-desi)
+1. [2026-10-09 – ![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb](#2026-10-09-screenshot-from-2026-10-10-07-34-07httpshalflifeh)
 2. [2026-10-09 – ![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda](#2026-10-09-screenshot-from-2026-10-10-07-33-29httpshalflifeh)
 
 ## Design
 
-### 2026-10-09 – Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons
+### 2026-10-09 – ![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb
 
 **2.03h**
+
+![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb3.png)
 
 Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons. I’m a complete beginner at electronics, so I followed the Week 1 Guide step by step.
 
