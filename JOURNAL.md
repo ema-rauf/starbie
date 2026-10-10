@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-09 – Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons](#2026-10-09-today-i-started-the-half-life-week-1-project-desi)
-2. [2026-10-09 – Work session](#2026-10-09-work-session)
+2. [2026-10-09 – ![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda](#2026-10-09-screenshot-from-2026-10-10-07-33-29httpshalflifeh)
 
 ## Design
 
@@ -43,8 +43,20 @@ The guide’s schematic picture puts SCL on D4 and SDA on D5, but its firmware t
 
 [Timelapse](https://lookout.hackclub.com/api/media/46b743ef-5ec6-41f8-aaad-dfad73d32cfe/video.mp4)
 
-### 2026-10-09 – Work session
+### 2026-10-09 – ![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda
 
 **2.02h**
+
+![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda3.png)
+
+![Screenshot From 2026-10-10 07-03-22](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/bf56e95c22bf0274ef860af972aa32ba94f8e523325bf664f24fbf8a408f7734.png)
+
+![Screenshot From 2026-10-10 06-57-42](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/2b279dfe3a51028fe1c21014746685f5593b881c66ae9bf731424f44ff00eba7.png)
+
+![Screenshot From 2026-10-10 06-52-06](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/9f300d88830c3171dd36d612cfd36941bba1bc29ade0058d4ded9650f956a758.png)
+
+![Screenshot From 2026-10-10 06-51-02](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/d9afa2e4d581748c8de85f9507e4e57d63e27a724844b4849e98b6af0887484f.png)
+
+Work session
 
 [Timelapse](https://lookout.hackclub.com/api/media/5ad4cfd8-2d19-4063-8c26-d51b4859e330/video.mp4)
