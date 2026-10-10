@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-09 – ![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb](#2026-10-09-screenshot-from-2026-10-10-07-34-07httpshalflifeh)
-2. [2026-10-09 – ![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda](#2026-10-09-screenshot-from-2026-10-10-07-33-29httpshalflifeh)
+2. [2026-10-09 – I started the Half-Life Week 1 project: designing the PCB for Starbie, a desk pet with a XIAO ESP32-C3, an OLED, an MPU6050 motion sensor, a DHT11 sensor and two buttons. I’m a beginner at electronics](#2026-10-09-i-started-the-half-life-week-1-project-designing-)
 
 ## Design
 
@@ -45,9 +45,24 @@ The guide’s schematic picture puts SCL on D4 and SDA on D5, but its firmware t
 
 [Timelapse](https://lookout.hackclub.com/api/media/46b743ef-5ec6-41f8-aaad-dfad73d32cfe/video.mp4)
 
-### 2026-10-09 – ![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda
+### 2026-10-09 – I started the Half-Life Week 1 project: designing the PCB for Starbie, a desk pet with a XIAO ESP32-C3, an OLED, an MPU6050 motion sensor, a DHT11 sensor and two buttons. I’m a beginner at electronics
 
 **2.02h**
+
+I started the Half-Life Week 1 project: designing the PCB for Starbie, a desk pet with a XIAO ESP32-C3, an OLED, an MPU6050 motion sensor, a DHT11 sensor and two buttons. I’m a beginner at electronics, so I followed the Week 1 Guide step by step.
+
+What I did
+
+Installed KiCad on Linux.
+Downloaded the care package into Downloads/starbie and imported its symbol library (Seeed_Studio_XIAO_Series.kicad_sym) and footprint library (Imported Parts.pretty).
+Created the KiCad project and placed the XIAO-ESP32-C3-SMD in the schematic.
+Added +5V, +3.3V and GND symbols and wired VBUS to +5V and 3V3_OUT to +3.3V.
+Found that the XIAO has three GND pins (13, 18 and 22) and wired all of them.
+
+Problems
+
+The guide had been updated while I worked, so I re-read it.
+The guide’s schematic picture puts SCL on D4 and SDA on D5, but its firmware text says the opposite. I decided to follow the picture and swap the pin numbers in the firmware later.
 
 ![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda3.png)
 
