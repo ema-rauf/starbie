@@ -16,7 +16,7 @@
 
 1. [2026-10-09 – ![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb](#2026-10-09-screenshot-from-2026-10-10-07-34-07httpshalflifeh)
 2. [2026-10-09 – I started the Half-Life Week 1 project: designing the PCB for Starbie, a desk pet with a XIAO ESP32-C3, an OLED, an MPU6050 motion sensor, a DHT11 sensor and two buttons. I’m a beginner at electronics](#2026-10-09-i-started-the-half-life-week-1-project-designing-)
-3. [2026-10-10 – Work session](#2026-10-10-work-session)
+3. [2026-10-10 – I finished the whole PCB design today and exported the manufacturing files.](#2026-10-10-i-finished-the-whole-pcb-design-today-and-exporte)
 
 ## Design
 
@@ -79,8 +79,37 @@ Work session
 
 [Timelapse](https://lookout.hackclub.com/api/media/5ad4cfd8-2d19-4063-8c26-d51b4859e330/video.mp4)
 
-### 2026-10-10 – Work session
+### 2026-10-10 – I finished the whole PCB design today and exported the manufacturing files.
 
 **1.57h**
+
+I finished the whole PCB design today and exported the manufacturing files.
+
+Schematic
+
+Added net labels from the guide’s picture: DHT11_DATA on D1, GPIO2 on D2, GPIO3 on D3, SCL on D4 and SDA on D5. Unused pins got no-connect flags.
+Added both buttons (GPIO2, GPIO3 and GND), the OLED header, the MPU6050 header (pins 5 to 8 unused), the DHT11 and a 10k resistor on DHT11_DATA.
+Assigned footprints from the guide’s picture, using the XIAO-ESP32-C3-SMD footprint from the care package.
+
+PCB layout
+
+Updated the PCB from the schematic and drew the board outline on Edge.Cuts.
+Arranged the parts, then rearranged them so the traces were short and didn’t cross.
+Routed all signal nets, then added GND pours on F.Cu and B.Cu.
+
+Problems I solved
+
+My first GPIO2 trace started on a GND pad and wouldn’t connect. The nets only appeared on the switch pads after I ran Update PCB from Schematic.
+DRC showed one missing GND connection (U1 pad 13), and I connected it.
+
+Result
+
+DRC shows 0 unconnected items. The only 2 errors are the Footprint J1 courtyard errors that come from the care package footprint.
+Exported Gerbers and drill files to the Gerbers folder (12 files).
+
+Next: upload to GitHub, then do the firmware (swap the SDA/SCL pin numbers to match D4 = SCL and D5 = SDA).
+![Screenshot From 2026-10-10 19-21-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/acf88a976cbe952e791f9d5e597824d4e9147135d4593c4351990265ea347c6d.png)
+
+![Screenshot From 2026-10-10 19-02-47](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/74edae5fd965c70d903a9e2109f2969986945e77759413b0229e69cdfc1b2d2e.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/1155656b-930c-4e49-9bd5-5f36d7eaf3e5/video.mp4)
