@@ -1,0 +1,7 @@
+Reference,Qty,Part,Value,Footprint
+U1,1,Seeed Studio XIAO ESP32-C3,,Imported Parts:XIAO-ESP32-C3-SMD
+J1,1,0.96in 128x64 I2C OLED display,,Imported Parts:Display_128x64_096_I2C
+J2,1,MPU6050 module (GY-521),,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+SW1 SW3,2,Push button (Cherry MX footprint),,Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB
+U2,1,DHT11 temperature and humidity sensor,,Sensor:Aosong_DHT11_5.5x12.0_P2.54mm
+R1,1,Resistor,10k,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
