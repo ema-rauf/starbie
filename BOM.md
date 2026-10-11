@@ -21,7 +21,7 @@
 | [Soldering iron](https://digilog.pk/products/variable-soldering-iron-093d?utm_source=chatgpt.com) | Soldering components | 1 | $3.79 | $3.79 | [Digilog](https://digilog.pk/products/variable-soldering-iron-093d?utm_source=chatgpt.com) |
 | [0.8mm 2.5ft Soldering Wire](https://digilog.pk/products/0-8mm-dia-2-5-ft-solder-wire-in-pakistan?_psq=Solder+wire&_psid=89ebf6d12) | Soldering Wire | 1 | $0.20 | $0.20 | [Digilog](https://digilog.pk/products/0-8mm-dia-2-5-ft-solder-wire-in-pakistan?_psq=Solder+wire&_psid=89ebf6d12) |
 | **Parts subtotal** | — | — | — | **$23.72** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$23.72** | — |
+| **Tax & shipping** | — | — | — | **$6.00** | — |
+| **Total** | — | — | — | **$29.72** | — |
 
-$6.28 left of the tier's funding.
+$0.28 left of the tier's funding.
