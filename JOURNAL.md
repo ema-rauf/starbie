@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-11T10:04:33.815Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuuwz0ys0bbs01smmutqy54f). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
 
@@ -25,7 +25,7 @@
 
 **2.03h**
 
-![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb3.png)
+![Screenshot From 2026-10-10 07-34-07](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/3efbfc1b40019a1857255c085b7259bd5ee27abe2e32bf23fe088dcb869fecb3.png)
 
 Today I started the Half-Life Week 1 project, designing the PCB for Starbie, a small desk pet with a XIAO ESP32-C3, an OLED screen, an MPU6050 motion sensor, a DHT11 temperature sensor and two buttons. I’m a complete beginner at electronics, so I followed the Week 1 Guide step by step.
 
@@ -66,15 +66,15 @@ Problems
 The guide had been updated while I worked, so I re-read it.
 The guide’s schematic picture puts SCL on D4 and SDA on D5, but its firmware text says the opposite. I decided to follow the picture and swap the pin numbers in the firmware later.
 
-![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda3.png)
+![Screenshot From 2026-10-10 07-33-29](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/e24edfcf3987dd73a841ee33883381d68450d37cb6544e8785a4545b3cfadda3.png)
 
-![Screenshot From 2026-10-10 07-03-22](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/bf56e95c22bf0274ef860af972aa32ba94f8e523325bf664f24fbf8a408f7734.png)
+![Screenshot From 2026-10-10 07-03-22](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/bf56e95c22bf0274ef860af972aa32ba94f8e523325bf664f24fbf8a408f7734.png)
 
-![Screenshot From 2026-10-10 06-57-42](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/2b279dfe3a51028fe1c21014746685f5593b881c66ae9bf731424f44ff00eba7.png)
+![Screenshot From 2026-10-10 06-57-42](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/2b279dfe3a51028fe1c21014746685f5593b881c66ae9bf731424f44ff00eba7.png)
 
-![Screenshot From 2026-10-10 06-52-06](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/9f300d88830c3171dd36d612cfd36941bba1bc29ade0058d4ded9650f956a758.png)
+![Screenshot From 2026-10-10 06-52-06](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/9f300d88830c3171dd36d612cfd36941bba1bc29ade0058d4ded9650f956a758.png)
 
-![Screenshot From 2026-10-10 06-51-02](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/d9afa2e4d581748c8de85f9507e4e57d63e27a724844b4849e98b6af0887484f.png)
+![Screenshot From 2026-10-10 06-51-02](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/d9afa2e4d581748c8de85f9507e4e57d63e27a724844b4849e98b6af0887484f.png)
 
 Work session
 
@@ -109,9 +109,9 @@ DRC shows 0 unconnected items. The only 2 errors are the Footprint J1 courtyard 
 Exported Gerbers and drill files to the Gerbers folder (12 files).
 
 Next: upload to GitHub, then do the firmware (swap the SDA/SCL pin numbers to match D4 = SCL and D5 = SDA).
-![Screenshot From 2026-10-10 19-21-29](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/acf88a976cbe952e791f9d5e597824d4e9147135d4593c4351990265ea347c6d.png)
+![Screenshot From 2026-10-10 19-21-29](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/acf88a976cbe952e791f9d5e597824d4e9147135d4593c4351990265ea347c6d.png)
 
-![Screenshot From 2026-10-10 19-02-47](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/74edae5fd965c70d903a9e2109f2969986945e77759413b0229e69cdfc1b2d2e.png)
+![Screenshot From 2026-10-10 19-02-47](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/74edae5fd965c70d903a9e2109f2969986945e77759413b0229e69cdfc1b2d2e.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/1155656b-930c-4e49-9bd5-5f36d7eaf3e5/video.mp4)
 
@@ -138,16 +138,16 @@ Result
 The sketch compiles with no errors. It uses 26% of program storage and 4% of memory.
 I haven’t uploaded it, because I need the real board for that.
 
-![Screenshot From 2026-10-11 09-07-35](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/ebcdca7ed07ded7c37e6ece0ae440a8b19bbcd7a5b08384c9fcadb828ff22313.png)
+![Screenshot From 2026-10-11 09-07-35](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/ebcdca7ed07ded7c37e6ece0ae440a8b19bbcd7a5b08384c9fcadb828ff22313.png)
 
-![Screenshot From 2026-10-11 09-06-23](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/a55bd52ca38f0e9f47a22beb3707edc7b3d7fc493c7223031110fc18aacf9639.png)
+![Screenshot From 2026-10-11 09-06-23](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/a55bd52ca38f0e9f47a22beb3707edc7b3d7fc493c7223031110fc18aacf9639.png)
 
-![Screenshot From 2026-10-11 09-04-14](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/652879f62f5b399b5c1869b5392b12f03494f7fa466bc63b1623857769f724a8.png)
+![Screenshot From 2026-10-11 09-04-14](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/652879f62f5b399b5c1869b5392b12f03494f7fa466bc63b1623857769f724a8.png)
 
-![Screenshot From 2026-10-11 09-02-00](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/8c5684da356acc4053fe26a039f831f2b3410bb813232c55a00cab02f5386f42.png)
+![Screenshot From 2026-10-11 09-02-00](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/8c5684da356acc4053fe26a039f831f2b3410bb813232c55a00cab02f5386f42.png)
 
-![Screenshot From 2026-10-11 09-00-31](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/000522f20a8bc232be5d9c7014f5f35cfc1da0024b6ebba1e99328a5911b99fc.png)
+![Screenshot From 2026-10-11 09-00-31](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/000522f20a8bc232be5d9c7014f5f35cfc1da0024b6ebba1e99328a5911b99fc.png)
 
-![Screenshot From 2026-10-11 08-46-50](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/d2562d07f42d23a9ac5de54f7a972acfcd4582bcd4c7d06641764615267030aa.png)
+![Screenshot From 2026-10-11 08-46-50](https://halflife.hackclub-assets.com/sessions/Qgzhw9aCgZjWjX8UQ5PRuQQlkE5Sf2EF/d2562d07f42d23a9ac5de54f7a972acfcd4582bcd4c7d06641764615267030aa.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/bc8acbe5-9174-4e61-94f9-cc335169b047/video.mp4)
