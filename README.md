@@ -108,3 +108,4 @@ The PCB is designed and routed. The design rules check shows no unconnected item
 
 ![Screenshot From 2026-10-11 09-07-35.png](images/Screenshot%20From%202026-10-11%2009-07-35.png)
 
+![Updated PCB with USB facing out](images/board-final.png)
